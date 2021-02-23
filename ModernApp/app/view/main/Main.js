@@ -37,7 +37,6 @@ Ext.define('MyModernApp.view.main.Main', {
             title: 'Calendar',
             iconCls: 'x-fa fa-calendar',
             layout: 'fit',
-            // The following grid shares a store with the classic version's grid as well!
             items: [{
                 xtype: 'calendar'
             }]

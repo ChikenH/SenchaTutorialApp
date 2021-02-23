@@ -13,7 +13,9 @@ Ext.define('MyModernApp.view.main.MainController', {
 
     onConfirm: function (choice) {
         if (choice === 'yes') {
-            //
+            Ext.Msg.alert('Select', 'You selected "yes".', Ext.emptyFn);
+        } else {
+            Ext.Msg.alert('Select', 'You selected "no".', Ext.emptyFn);
         }
     }
 });
